@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		440CE835227BC14C0012A49A /* SwiftyRSA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440CE82C227BC13F0012A49A /* SwiftyRSA.framework */; };
+		440CE836227BC14C0012A49A /* SwiftyRSA.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 440CE82C227BC13F0012A49A /* SwiftyRSA.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4411D84D2243D77000249BB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4411D84C2243D77000249BB7 /* AppDelegate.swift */; };
+		4411D84F2243D77000249BB7 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4411D84E2243D77000249BB7 /* LoginController.swift */; };
+		4411D8522243D77000249BB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4411D8502243D77000249BB7 /* Main.storyboard */; };
+		4411D8542243D77100249BB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4411D8532243D77100249BB7 /* Assets.xcassets */; };
+		4411D8572243D77100249BB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4411D8552243D77100249BB7 /* LaunchScreen.storyboard */; };
+		44AE9A9E2279EFEA002EAEAE /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AE9A912279EEFB002EAEAE /* Alamofire.framework */; };
+		44AE9A9F2279EFEA002EAEAE /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 44AE9A912279EEFB002EAEAE /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		44AE9B01227A4C96002EAEAE /* CryptorRSA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AE9B00227A4C08002EAEAE /* CryptorRSA.framework */; };
+		44AE9B02227A4C96002EAEAE /* CryptorRSA.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 44AE9B00227A4C08002EAEAE /* CryptorRSA.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		44E21439224654FD00E57AC4 /* ReadPassportController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E21438224654FD00E57AC4 /* ReadPassportController.swift */; };
+		44E2143B2246551B00E57AC4 /* CredentialsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E2143A2246551B00E57AC4 /* CredentialsController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		440CE82B227BC13F0012A49A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 440CE81A227BC13F0012A49A /* SwiftyRSA.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C057921421545B600057F401;
+			remoteInfo = "SwiftyRSA iOS";
+		};
+		440CE82D227BC13F0012A49A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 440CE81A227BC13F0012A49A /* SwiftyRSA.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C076F53D1DADEB90006AF5DB;
+			remoteInfo = "SwiftyRSA iOS Tests";
+		};
+		440CE82F227BC13F0012A49A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 440CE81A227BC13F0012A49A /* SwiftyRSA.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C0579238215465040057F401;
+			remoteInfo = "SwiftyRSA tvOS";
+		};
+		440CE831227BC13F0012A49A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 440CE81A227BC13F0012A49A /* SwiftyRSA.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C0579252215465750057F401;
+			remoteInfo = "SwiftyRSA tvOS Tests";
+		};
+		440CE833227BC13F0012A49A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 440CE81A227BC13F0012A49A /* SwiftyRSA.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C057921A21545C790057F401;
+			remoteInfo = "SwiftyRSA watchOS";
+		};
+		440CE837227BC14C0012A49A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 440CE81A227BC13F0012A49A /* SwiftyRSA.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A0D4C96F0225BD9340375C73B5AFD981;
+			remoteInfo = "SwiftyRSA iOS";
+		};
+		44AE9A902279EEFB002EAEAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44AE9A852279EEFB002EAEAE /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		44AE9A922279EEFB002EAEAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44AE9A852279EEFB002EAEAE /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		44AE9A942279EEFB002EAEAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44AE9A852279EEFB002EAEAE /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire macOS";
+		};
+		44AE9A962279EEFB002EAEAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44AE9A852279EEFB002EAEAE /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire macOS Tests";
+		};
+		44AE9A982279EEFB002EAEAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44AE9A852279EEFB002EAEAE /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		44AE9A9A2279EEFB002EAEAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44AE9A852279EEFB002EAEAE /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		44AE9A9C2279EEFB002EAEAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44AE9A852279EEFB002EAEAE /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+		44AE9AA02279EFEA002EAEAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44AE9A852279EEFB002EAEAE /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		44AE9AFB227A4C08002EAEAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44AE9AF5227A4C08002EAEAE /* CryptorRSA.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_14;
+			remoteInfo = CryptorRSA;
+		};
+		44AE9AFD227A4C08002EAEAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44AE9AF5227A4C08002EAEAE /* CryptorRSA.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_15;
+			remoteInfo = CryptorRSATests;
+		};
+		44AE9AFF227A4C08002EAEAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44AE9AF5227A4C08002EAEAE /* CryptorRSA.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8C208BD321A86E9400DDD50E;
+			remoteInfo = "CryptorRSA-iOS";
+		};
+		44AE9B03227A4C96002EAEAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44AE9AF5227A4C08002EAEAE /* CryptorRSA.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C208BC521A86E9400DDD50E;
+			remoteInfo = "CryptorRSA-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		44AE9AA22279EFEA002EAEAE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				44AE9A9F2279EFEA002EAEAE /* Alamofire.framework in Embed Frameworks */,
+				44AE9B02227A4C96002EAEAE /* CryptorRSA.framework in Embed Frameworks */,
+				440CE836227BC14C0012A49A /* SwiftyRSA.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		440CE81A227BC13F0012A49A /* SwiftyRSA.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyRSA.xcodeproj; path = SwiftyRSA/SwiftyRSA.xcodeproj; sourceTree = "<group>"; };
+		4411D8492243D77000249BB7 /* iReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4411D84C2243D77000249BB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4411D84E2243D77000249BB7 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		4411D8512243D77000249BB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4411D8532243D77100249BB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4411D8562243D77100249BB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4411D8582243D77100249BB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44AE9A852279EEFB002EAEAE /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		44AE9AF5227A4C08002EAEAE /* CryptorRSA.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CryptorRSA.xcodeproj; path = BlueRSA/CryptorRSA.xcodeproj; sourceTree = "<group>"; };
+		44E21438224654FD00E57AC4 /* ReadPassportController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadPassportController.swift; sourceTree = "<group>"; };
+		44E2143A2246551B00E57AC4 /* CredentialsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4411D8462243D77000249BB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44AE9A9E2279EFEA002EAEAE /* Alamofire.framework in Frameworks */,
+				44AE9B01227A4C96002EAEAE /* CryptorRSA.framework in Frameworks */,
+				440CE835227BC14C0012A49A /* SwiftyRSA.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		440CE81B227BC13F0012A49A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				440CE82C227BC13F0012A49A /* SwiftyRSA.framework */,
+				440CE82E227BC13F0012A49A /* SwiftyRSA iOS Tests.xctest */,
+				440CE830227BC13F0012A49A /* SwiftyRSA.framework */,
+				440CE832227BC13F0012A49A /* SwiftyRSA tvOS Tests.xctest */,
+				440CE834227BC13F0012A49A /* SwiftyRSA.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4411D8402243D77000249BB7 = {
+			isa = PBXGroup;
+			children = (
+				440CE81A227BC13F0012A49A /* SwiftyRSA.xcodeproj */,
+				44AE9AF5227A4C08002EAEAE /* CryptorRSA.xcodeproj */,
+				44AE9A852279EEFB002EAEAE /* Alamofire.xcodeproj */,
+				4411D84B2243D77000249BB7 /* iReader */,
+				4411D84A2243D77000249BB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4411D84A2243D77000249BB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4411D8492243D77000249BB7 /* iReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4411D84B2243D77000249BB7 /* iReader */ = {
+			isa = PBXGroup;
+			children = (
+				4411D8602243D7B500249BB7 /* Controller */,
+				4411D85F2243D7AF00249BB7 /* Model */,
+				4411D85E2243D79B00249BB7 /* View */,
+				4411D84C2243D77000249BB7 /* AppDelegate.swift */,
+				4411D8532243D77100249BB7 /* Assets.xcassets */,
+				4411D8582243D77100249BB7 /* Info.plist */,
+			);
+			path = iReader;
+			sourceTree = "<group>";
+		};
+		4411D85E2243D79B00249BB7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4411D8502243D77000249BB7 /* Main.storyboard */,
+				4411D8552243D77100249BB7 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4411D85F2243D7AF00249BB7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4411D8602243D7B500249BB7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4411D84E2243D77000249BB7 /* LoginController.swift */,
+				44E21438224654FD00E57AC4 /* ReadPassportController.swift */,
+				44E2143A2246551B00E57AC4 /* CredentialsController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		44AE9A862279EEFB002EAEAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44AE9A912279EEFB002EAEAE /* Alamofire.framework */,
+				44AE9A932279EEFB002EAEAE /* Alamofire iOS Tests.xctest */,
+				44AE9A952279EEFB002EAEAE /* Alamofire.framework */,
+				44AE9A972279EEFB002EAEAE /* Alamofire macOS Tests.xctest */,
+				44AE9A992279EEFB002EAEAE /* Alamofire.framework */,
+				44AE9A9B2279EEFB002EAEAE /* Alamofire tvOS Tests.xctest */,
+				44AE9A9D2279EEFB002EAEAE /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44AE9AF6227A4C08002EAEAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44AE9AFC227A4C08002EAEAE /* CryptorRSA.framework */,
+				44AE9AFE227A4C08002EAEAE /* CryptorRSATests.xctest */,
+				44AE9B00227A4C08002EAEAE /* CryptorRSA.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4411D8482243D77000249BB7 /* iReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4411D85B2243D77100249BB7 /* Build configuration list for PBXNativeTarget "iReader" */;
+			buildPhases = (
+				4411D8452243D77000249BB7 /* Sources */,
+				4411D8462243D77000249BB7 /* Frameworks */,
+				4411D8472243D77000249BB7 /* Resources */,
+				44AE9AA22279EFEA002EAEAE /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44AE9AA12279EFEA002EAEAE /* PBXTargetDependency */,
+				44AE9B04227A4C96002EAEAE /* PBXTargetDependency */,
+				440CE838227BC14C0012A49A /* PBXTargetDependency */,
+			);
+			name = iReader;
+			productName = iReader;
+			productReference = 4411D8492243D77000249BB7 /* iReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4411D8412243D77000249BB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = PrintAndGo;
+				TargetAttributes = {
+					4411D8482243D77000249BB7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 4411D8442243D77000249BB7 /* Build configuration list for PBXProject "iReader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4411D8402243D77000249BB7;
+			productRefGroup = 4411D84A2243D77000249BB7 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 44AE9A862279EEFB002EAEAE /* Products */;
+					ProjectRef = 44AE9A852279EEFB002EAEAE /* Alamofire.xcodeproj */;
+				},
+				{
+					ProductGroup = 44AE9AF6227A4C08002EAEAE /* Products */;
+					ProjectRef = 44AE9AF5227A4C08002EAEAE /* CryptorRSA.xcodeproj */;
+				},
+				{
+					ProductGroup = 440CE81B227BC13F0012A49A /* Products */;
+					ProjectRef = 440CE81A227BC13F0012A49A /* SwiftyRSA.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				4411D8482243D77000249BB7 /* iReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		440CE82C227BC13F0012A49A /* SwiftyRSA.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyRSA.framework;
+			remoteRef = 440CE82B227BC13F0012A49A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		440CE82E227BC13F0012A49A /* SwiftyRSA iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyRSA iOS Tests.xctest";
+			remoteRef = 440CE82D227BC13F0012A49A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		440CE830227BC13F0012A49A /* SwiftyRSA.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyRSA.framework;
+			remoteRef = 440CE82F227BC13F0012A49A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		440CE832227BC13F0012A49A /* SwiftyRSA tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyRSA tvOS Tests.xctest";
+			remoteRef = 440CE831227BC13F0012A49A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		440CE834227BC13F0012A49A /* SwiftyRSA.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyRSA.framework;
+			remoteRef = 440CE833227BC13F0012A49A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		44AE9A912279EEFB002EAEAE /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 44AE9A902279EEFB002EAEAE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		44AE9A932279EEFB002EAEAE /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 44AE9A922279EEFB002EAEAE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		44AE9A952279EEFB002EAEAE /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 44AE9A942279EEFB002EAEAE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		44AE9A972279EEFB002EAEAE /* Alamofire macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire macOS Tests.xctest";
+			remoteRef = 44AE9A962279EEFB002EAEAE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		44AE9A992279EEFB002EAEAE /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 44AE9A982279EEFB002EAEAE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		44AE9A9B2279EEFB002EAEAE /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = 44AE9A9A2279EEFB002EAEAE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		44AE9A9D2279EEFB002EAEAE /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 44AE9A9C2279EEFB002EAEAE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		44AE9AFC227A4C08002EAEAE /* CryptorRSA.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CryptorRSA.framework;
+			remoteRef = 44AE9AFB227A4C08002EAEAE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		44AE9AFE227A4C08002EAEAE /* CryptorRSATests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CryptorRSATests.xctest;
+			remoteRef = 44AE9AFD227A4C08002EAEAE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		44AE9B00227A4C08002EAEAE /* CryptorRSA.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CryptorRSA.framework;
+			remoteRef = 44AE9AFF227A4C08002EAEAE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4411D8472243D77000249BB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4411D8572243D77100249BB7 /* LaunchScreen.storyboard in Resources */,
+				4411D8542243D77100249BB7 /* Assets.xcassets in Resources */,
+				4411D8522243D77000249BB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4411D8452243D77000249BB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4411D84F2243D77000249BB7 /* LoginController.swift in Sources */,
+				4411D84D2243D77000249BB7 /* AppDelegate.swift in Sources */,
+				44E2143B2246551B00E57AC4 /* CredentialsController.swift in Sources */,
+				44E21439224654FD00E57AC4 /* ReadPassportController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		440CE838227BC14C0012A49A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftyRSA iOS";
+			targetProxy = 440CE837227BC14C0012A49A /* PBXContainerItemProxy */;
+		};
+		44AE9AA12279EFEA002EAEAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 44AE9AA02279EFEA002EAEAE /* PBXContainerItemProxy */;
+		};
+		44AE9B04227A4C96002EAEAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CryptorRSA-iOS";
+			targetProxy = 44AE9B03227A4C96002EAEAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4411D8502243D77000249BB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4411D8512243D77000249BB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4411D8552243D77100249BB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4411D8562243D77100249BB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4411D8592243D77100249BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/RSA-objc/RSA-objc/SwiftBridgingHeader.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4411D85A2243D77100249BB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/RSA-objc/RSA-objc/SwiftBridgingHeader.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4411D85C2243D77100249BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58NM68BN9H;
+				INFOPLIST_FILE = iReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PrintAndGo.iReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4411D85D2243D77100249BB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58NM68BN9H;
+				INFOPLIST_FILE = iReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PrintAndGo.iReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4411D8442243D77000249BB7 /* Build configuration list for PBXProject "iReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4411D8592243D77100249BB7 /* Debug */,
+				4411D85A2243D77100249BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4411D85B2243D77100249BB7 /* Build configuration list for PBXNativeTarget "iReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4411D85C2243D77100249BB7 /* Debug */,
+				4411D85D2243D77100249BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4411D8412243D77000249BB7 /* Project object */;
+}

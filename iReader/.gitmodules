@@ -1,0 +1,18 @@
+[submodule "Alamofire"]
+	path = Alamofire
+	url = https://github.com/Alamofire/Alamofire.git
+[submodule "SwCrypt"]
+	path = SwCrypt
+	url = https://github.com/soyersoyer/SwCrypt.git
+[submodule "SwiftyRSA"]
+	path = SwiftyRSA
+	url = https://github.com/TakeScoop/SwiftyRSA.git
+[submodule "Sww"]
+	path = SwiftyRSA
+	url = https://github.com/TakeScoop/SwiftyRSA.git
+[submodule "BlueRSA"]
+	path = BlueRSA
+	url = https://github.com/IBM-Swift/BlueRSA.git
+[submodule "RSA-objc"]
+	path = RSA-objc
+	url = https://github.com/jslim89/RSA-objc.git
